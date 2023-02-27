@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  background: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.image-box{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.image-box img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.content{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.content h2{
+  font-size: 1em;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content p{
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
